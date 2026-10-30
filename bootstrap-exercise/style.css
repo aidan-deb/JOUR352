@@ -1,0 +1,48 @@
+/* Google Font */
+h1, h2, h3, .navbar-brand, .btn {
+    font-family: 'Special Elite', cursive;
+}
+
+/* Center content */
+.content-column {
+    text-align: center;
+}
+
+/* Image sizing */
+.column-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Space between rows */
+.row {
+    padding-bottom: 50px;
+}
+
+/* Icon size */
+.bi {
+    font-size: 3em;
+}
+
+.content-column {
+    text-align: center;
+}
+
+/* Button alignment */
+.btn {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 500px) {
+
+    h2 {
+        padding-top: 50px;
+    }
+
+    .btn {
+        background-color: teal;
+    }
+
+}
