@@ -1,0 +1,123 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #172B4D;
+    background-color: #FFFFFF;
+}
+
+/* Navigation bar styling */
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #172B4D;
+}
+
+/* Topper (home page) styling */
+#home {
+    background-color: #F3F6FA;
+    padding: 40px;
+}
+
+#home img {
+    max-width: 300px;
+}
+
+#home h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#home h4 {
+    color: #2563EB;
+    margin-bottom: 20px;
+}
+
+#home p {
+    line-height: 1.7;
+}
+
+/* Experience section styling */
+#experience h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#experience h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#experience p {
+    margin-bottom: 8px;
+}
+
+#experience ul {
+    padding-left: 20px;
+}
+
+#experience li {
+    margin-bottom: 8px;
+}
+
+/* Education section styling */
+#education h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#education h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#education p {
+    margin-bottom: 8px;
+}
+
+/* Skills list styling */
+#skills ul {
+    padding-left: 20px;
+}
+
+#skills li {
+    margin-bottom: 12px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #F3F6FA;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #2563EB;
+}
+
+/* Mobile device screen adjustments */
+@media only screen and (max-width: 499px) {
+
+    h2 {
+        padding-top: 20px;
+    }
+
+    .btn-dark {
+        background-color: #2563EB;
+        border-color: #2563EB;
+    }
+
+    #home {
+        padding: 20px;
+    }
+
+}
